@@ -14,6 +14,8 @@ let g:airline_powerline_fonts = 1
 " 打开tabline功能,方便查看Buffer和切换
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
-
 " }
 
+" 对接系统剪贴板 {
+set clipboard+=unnamedplus
+" }
