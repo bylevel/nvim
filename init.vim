@@ -6,6 +6,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'kien/ctrlp.vim'
 " jsx 语法高亮支持
 Plug 'mxw/vim-jsx'
+" 高亮git修改
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
