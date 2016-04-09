@@ -8,8 +8,30 @@ Plug 'kien/ctrlp.vim'
 Plug 'mxw/vim-jsx'
 " 高亮git修改
 Plug 'airblade/vim-gitgutter'
+" 相对行号
+Plug 'myusuf3/numbers.vim'
+" 快速定位屏幕上的指定位置
+Plug 'easymotion/vim-easymotion'
+" 代码高亮主题
+Plug 'altercation/vim-colors-solarized'
+" 注释插件
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
+
+" 设置 leader 键
+let mapleader=" "
+
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+
+" vim 基本配置 {
+" 设置显示行号
+set number
+" 设置高亮主题
+syntax enable
+set background=dark
+colorscheme solarized
+" }
 
 " vim-airline {
 let g:airline_theme='papercolor'
@@ -26,4 +48,10 @@ set clipboard+=unnamedplus
 
 " jsx语法高亮 {
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+" }
+
+" easy-motion {
+" <Leader>f{char} to move to {char}
+map  <Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader>f <Plug>(easymotion-overwin-f)
 " }
