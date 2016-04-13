@@ -35,11 +35,9 @@
     " inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
     
     "youcompleteme  默认tab  s-tab 和自动补全冲突
-    "let g:ycm_key_list_select_completion=['<c-n>']
-    " let g:ycm_key_list_select_completion = ['<Down>']
-    "let g:ycm_key_list_previous_completion=['<c-p>']
-    " let g:ycm_key_list_previous_completion = ['<Up>']
-    let g:ycm_confirm_extra_conf=0 "关闭加载.ycm_extra_conf.py提示
+    let g:ycm_key_list_select_completion=['<c-n>', '<Down>']
+    let g:ycm_key_list_previous_completion=['<c-p>', '<Up>']
+    let g:ycm_confirm_extra_conf=0 " 关闭加载.ycm_extra_conf.py提示
     
     let g:ycm_collect_identifiers_from_tags_files=1	" 开启 YCM 基于标签引擎
     let g:ycm_min_num_of_chars_for_completion=1	" 从第2个键入字符就开始罗列匹配项
@@ -63,3 +61,14 @@
     nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>  
     nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>  
 "}
+
+" ultisnips {
+    " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+    let g:UltiSnipsExpandTrigger="<tab>"
+    let g:UltiSnipsJumpForwardTrigger="<c-b>"
+    let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+    
+    " If you want :UltiSnipsEdit to split your window.
+    let g:UltiSnipsEditSplit="vertical"
+" }
+

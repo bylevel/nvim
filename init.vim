@@ -22,6 +22,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'wakatime/vim-wakatime'
     " ultisnip 插件
     Plug 'SirVer/ultisnips'
+    " 通用snippet
+    Plug 'honza/vim-snippets'
 call plug#end()
 
 " 加载公共配置
