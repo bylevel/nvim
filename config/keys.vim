@@ -5,6 +5,8 @@ let mapleader=" "
 
 " 打开 init.vim 配置文件
 nmap <silent> <leader>fv :e $MYVIMRC<CR>
+" 从当前文件的相对位置打开文件
+nmap <leader>ff :e %:h/
 " 保存文件
 nmap <silent> <leader>fs :w<CR>
 " buffer next

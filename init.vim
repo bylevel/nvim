@@ -20,12 +20,14 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Valloric/YouCompleteMe'
     " wakatime 记录写代码的时间
     Plug 'wakatime/vim-wakatime'
+    " ultisnip 插件
+    Plug 'SirVer/ultisnips'
 call plug#end()
 
 " 加载公共配置
-source ./config/global.vim
+source ~/.config/nvim/config/global.vim
 " 加载基础快捷键配置
-source ./config/keys.vim
+source ~/.config/nvim/config/keys.vim
 " 加载插件配置
-source ./config/plugins.vim
+source ~/.config/nvim/config/plugins.vim
 
