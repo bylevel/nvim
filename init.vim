@@ -24,6 +24,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'SirVer/ultisnips'
     " 通用snippet
     Plug 'honza/vim-snippets'
+    " 文件树管理
+    Plug 'scrooloose/nerdtree'
+    " 一个通用的搜索工具
+    Plug 'Shougo/unite.vim'
 call plug#end()
 
 " 加载公共配置

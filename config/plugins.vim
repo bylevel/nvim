@@ -72,3 +72,8 @@
     let g:UltiSnipsEditSplit="vertical"
 " }
 
+" nerdtree {
+    " 打开nerdtree
+    nnoremap <leader>f\ :NERDTreeToggle<CR>
+" }
+
