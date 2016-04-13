@@ -16,4 +16,4 @@ nmap <silent> <leader>bp :bp<CR>
 " buffer delete
 nmap <leader>bd :bd
 " 关闭当前窗口
-nmap <leader>qq :q
+nmap <leader>qq :q<CR>
