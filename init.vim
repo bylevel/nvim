@@ -16,6 +16,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'altercation/vim-colors-solarized'
 " 注释插件
 Plug 'tomtom/tcomment_vim'
+" 神器YouCompleteMe
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 
@@ -23,6 +25,9 @@ call plug#end()
 let mapleader=" "
 
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
+
+" 设置python支持
+let g:python_host_prog = '/usr/bin/python'
 
 " vim 基本配置 {
 " 设置显示行号
