@@ -112,3 +112,8 @@
     autocmd FileType go nnoremap <silent> <leader>lgi :GoInfo<CR>
     autocmd FileType go nnoremap <silent> <leader>lgr :GoRename<CR>
 " }
+
+" python-mode {
+    " autopep8
+    autocmd FileType python nnoremap <silent> <leader>lpp :PymodeLintAuto<CR>
+" }

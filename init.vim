@@ -42,6 +42,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'fatih/vim-go'
     " 代码检查
     Plug 'scrooloose/syntastic'
+    " python 开发环境
+    Plug 'klen/python-mode'
 call plug#end()
 
 " 加载函数
