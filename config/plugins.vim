@@ -102,3 +102,13 @@
     " 是否在保存文件后检查
     let g:syntastic_check_on_wq=1
 " }
+
+" vim-go {
+    " 设置 go 的代码检查
+    let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+    let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+
+    " 显示 info
+    autocmd FileType go nnoremap <silent> <leader>lgi :GoInfo<CR>
+    autocmd FileType go nnoremap <silent> <leader>lgr :GoRename<CR>
+" }
