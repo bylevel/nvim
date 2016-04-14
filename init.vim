@@ -30,6 +30,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Shougo/unite.vim'
 call plug#end()
 
+" 加载函数
+source ~/.config/nvim/config/funcs.vim
 " 加载公共配置
 source ~/.config/nvim/config/global.vim
 " 加载基础快捷键配置
