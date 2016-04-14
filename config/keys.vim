@@ -17,3 +17,6 @@ nmap <silent> <leader>bp :bp<CR>
 nmap <leader>bd :bd
 " 关闭当前窗口
 nmap <leader>qq :q<CR>
+
+" 打开SourceTree
+nnoremap <leader>ogs :call OpenSourceTree()<CR>
