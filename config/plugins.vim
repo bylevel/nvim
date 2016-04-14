@@ -91,3 +91,14 @@
 " gundo {
     nnoremap <leader>uu :GundoToggle<CR>
 " }
+
+" Syntastic {
+    " 设置错误符号
+    let g:syntastic_error_symbol='✗'
+    " 设置警告符号
+    let g:syntastic_warning_symbol='⚠'
+    " 是否在打开文件时检查
+    let g:syntastic_check_on_open=0
+    " 是否在保存文件后检查
+    let g:syntastic_check_on_wq=1
+" }

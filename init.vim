@@ -38,6 +38,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'terryma/vim-multiple-cursors'
     " undo 树
     Plug 'sjl/gundo.vim'
+    " Golang 开发插件
+    Plug 'fatih/vim-go'
+    " 代码检查
+    Plug 'scrooloose/syntastic'
 call plug#end()
 
 " 加载函数
