@@ -36,6 +36,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'terryma/vim-expand-region'
     " 多光标操作
     Plug 'terryma/vim-multiple-cursors'
+    " undo 树
+    Plug 'sjl/gundo.vim'
 call plug#end()
 
 " 加载函数

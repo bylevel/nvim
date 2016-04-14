@@ -88,3 +88,6 @@
     autocmd FileType javascript vnoremap <silent> <leader>ef :EsformatterVisual<CR>
 " }
 
+" gundo {
+    nnoremap <leader>uu :GundoToggle<CR>
+" }
