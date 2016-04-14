@@ -12,6 +12,8 @@ let g:python_host_prog = '/usr/bin/python'
     colorscheme solarized
     " 突出显示当前行
     set cursorline
+    " 突出显示当前列
+    set cursorcolumn
     " 设定 tab 长度为 4
     set tabstop=4
     " 设定 << 和 >> 命令移动时的宽度为 4
@@ -38,9 +40,8 @@ let g:python_host_prog = '/usr/bin/python'
     set list
     " 设置不可见字符
     set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
-" }
-
-
-" 对接系统剪贴板 {
+    " 文件修改之后自动载入
+    set autoread
+    " 对接系统剪贴板
     set clipboard+=unnamedplus
 " }
