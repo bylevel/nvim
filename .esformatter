@@ -1,0 +1,40 @@
+{
+  "indent": {
+    "ForInStatement": 1,
+    "FunctionDeclaration": 1,
+    "value": "    ",
+    "MultipleVariableDeclaration": 1,
+    "ObjectExpression": 1,
+    "IfStatementConditional": 1,
+    "CatchClause": 1,
+    "FunctionExpression": 1,
+    "IfStatement": 1,
+    "TryStatement": 1,
+    "DoWhileStatement": 1,
+    "SwitchCase": 1,
+    "ChainedMemberExpression": 0,
+    "TopLevelFunctionBlock": 1,
+    "ForStatement": 1,
+    "ConditionalExpression": 1,
+    "SwitchStatement": 1,
+    "WhileStatement": 1,
+    "ArrayExpression": 1,
+    "BinaryExpression": 0
+  },
+  "jsx": {
+    "attrsOnSameLineAsTag": false,
+    "firstAttributeOnSameLine": true,
+    "maxAttrsOnTag": 1,
+    "alignWithFirstAttribute": true,
+    "spaceInJSXExpressionContainers": " ",
+    "htmlOptions": {
+      "brace_style": "collapse",
+      "indent_char": " ",
+      "indent_size": 2,
+      "max_preserve_newlines": 2,
+      "preserve_newlines": true
+    }
+  },
+  "plugins": ["esformatter-jsx", "esformatter-collapse-objects"],
+  "preset": "jquery"
+}
