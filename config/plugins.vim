@@ -21,6 +21,11 @@
 " ctrlp {
     " 打开ctrl的buffer列表
     nmap <silent> <Leader>bb :CtrlPBuffer<cr>
+    " 基于路径显示
+    let g:ctrlp_funky_matchtype = 'path'
+    " 高亮显示当前查找的函数
+    let g:ctrlp_funky_syntax_highlight = 1
+    nnoremap <Leader>fu :CtrlPFunky<Cr>
 " }
 
 

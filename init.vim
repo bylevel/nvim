@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'scrooloose/nerdtree'
     " 一个通用的搜索工具
     Plug 'Shougo/unite.vim'
+    " 快速跳转当前文档中的函数
+    Plug 'tacahiroy/ctrlp-funky'
 call plug#end()
 
 " 加载函数
