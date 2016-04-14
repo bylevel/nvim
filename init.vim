@@ -32,6 +32,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tacahiroy/ctrlp-funky'
     " 格式化js代码
     Plug 'millermedeiros/vim-esformatter'
+    " 自动扩展选中范围
+    Plug 'terryma/vim-expand-region'
+    " 多光标操作
+    Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 " 加载函数
