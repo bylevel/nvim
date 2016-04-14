@@ -82,3 +82,9 @@
     nnoremap <leader>f\ :NERDTreeToggle<CR>
 " }
 
+" esformatter {
+    " 绑定快捷键
+    autocmd FileType javascript nnoremap <buffer> <leader>ef :Esformatter<CR>
+    autocmd FileType javascript vnoremap <silent> <leader>ef :EsformatterVisual<CR>
+" }
+

@@ -30,6 +30,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Shougo/unite.vim'
     " 快速跳转当前文档中的函数
     Plug 'tacahiroy/ctrlp-funky'
+    " 格式化js代码
+    Plug 'millermedeiros/vim-esformatter'
 call plug#end()
 
 " 加载函数
