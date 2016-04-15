@@ -20,3 +20,10 @@ nmap <leader>qq :q<CR>
 
 " 打开SourceTree
 nnoremap <leader>ogs :call OpenSourceTree()<CR>
+
+" 横向分割窗口
+nnoremap <leader>ss :split<CR>
+" 纵向分割窗口
+nnoremap <leader>sv :vsplit<CR>
+" 关闭当前窗口
+nnoremap <leader>sc :hide<CR>
