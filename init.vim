@@ -6,6 +6,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'kien/ctrlp.vim'
     " jsx 语法高亮支持
     Plug 'mxw/vim-jsx'
+    " javascript 支持
+    Plug 'pangloss/vim-javascript'
     " 高亮git修改
     Plug 'airblade/vim-gitgutter'
     " 相对行号
