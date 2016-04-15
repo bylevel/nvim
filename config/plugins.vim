@@ -131,5 +131,11 @@
 " }
 
 " tagbar {
+    " 开启TagBar
     nnoremap <leader>tb :TagbarToggle<CR>
+" }
+
+" CtrlSF {
+    " 打开CtrlSF搜索框
+    nnoremap <leader>qf :CtrlSF
 " }
