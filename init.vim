@@ -44,6 +44,14 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'scrooloose/syntastic'
     " python 开发环境
     Plug 'klen/python-mode'
+    " 自动补全括号
+    Plug 'Raimondi/delimitMate'
+    " 自动补全html的tag
+    Plug 'alvan/vim-closetag'
+    " 快速文件搜索
+    Plug 'dyng/ctrlsf.vim'
+    " 显示tag
+    Plug 'majutsushi/tagbar'
 call plug#end()
 
 " 加载函数
