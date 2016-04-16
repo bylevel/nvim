@@ -143,3 +143,9 @@
 " scss {
     autocmd BufRead,BufNewFile *.scss set filetype=scss.css
 " }
+
+" Unite {
+    " 显示历史剪贴板记录
+    nnoremap <leader>quy :Unite history/yank<CR>
+" }
+
