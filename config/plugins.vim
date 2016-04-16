@@ -139,3 +139,7 @@
     " 打开CtrlSF搜索框
     nnoremap <leader>qf :CtrlSF
 " }
+
+" scss {
+    autocmd BufRead,BufNewFile *.scss set filetype=scss.css
+" }

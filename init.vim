@@ -54,6 +54,18 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'dyng/ctrlsf.vim'
     " 显示tag
     Plug 'majutsushi/tagbar'
+    " html5 支持
+    Plug 'othree/html5.vim'
+    " emmet 快速编写html
+    Plug 'mattn/emmet-vim'
+    " scss 支持
+    Plug 'cakebaker/scss-syntax.vim'
+    " css3, less, stylus 支持
+    Plug 'hail2u/vim-css3-syntax'
+    " es6,es7高亮支持
+    Plug 'othree/yajs.vim'
+    " 基于Unite的历史记录
+    Plug 'Shougo/neoyank.vim'
 call plug#end()
 
 " 加载函数
