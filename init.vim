@@ -66,6 +66,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'othree/yajs.vim'
     " 基于Unite的历史记录
     Plug 'Shougo/neoyank.vim'
+    " 显示缩进高亮
+    Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " 加载函数

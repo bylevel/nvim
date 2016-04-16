@@ -149,3 +149,8 @@
     nnoremap <leader>quy :Unite history/yank<CR>
 " }
 
+" indentLine {
+    " 设置颜色
+    let g:indentLine_color_term = 9
+" }
+
