@@ -62,8 +62,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'cakebaker/scss-syntax.vim'
     " css3, less, stylus 支持
     Plug 'hail2u/vim-css3-syntax'
-    " es6,es7高亮支持
-    Plug 'othree/yajs.vim'
+    " es6, es7 高亮支持
+    Plug 'pangloss/vim-javascript'
     " 基于Unite的历史记录
     Plug 'Shougo/neoyank.vim'
     " 显示缩进高亮
