@@ -4,6 +4,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Ctrl-P 快速文件切换
     Plug 'kien/ctrlp.vim'
+    " 快速跳转当前文档中的函数
+    Plug 'tacahiroy/ctrlp-funky'
+    " 使用 python 加速 ctrlp
+    Plug 'FelikZ/ctrlp-py-matcher'
     " jsx 语法高亮支持
     Plug 'mxw/vim-jsx'
     " javascript 支持
@@ -30,8 +34,6 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'scrooloose/nerdtree'
     " 一个通用的搜索工具
     Plug 'Shougo/unite.vim'
-    " 快速跳转当前文档中的函数
-    Plug 'tacahiroy/ctrlp-funky'
     " 格式化js代码
     Plug 'millermedeiros/vim-esformatter'
     " 自动扩展选中范围

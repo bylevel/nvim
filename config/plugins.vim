@@ -21,6 +21,16 @@
 " ctrlp {
     " 打开ctrl的buffer列表
     nmap <silent> <Leader>bb :CtrlPBuffer<cr>
+    " 多个版本控制系统
+    let g:ctrlp_user_command = {
+                \ 'types': {
+                \ 1: ['.git', 'cd %s && git ls-files'],
+                \ 2: ['.hg', 'hg --cwd %s locate -I .'],
+                \ },
+                \ 'fallback': 'find %s -type f'
+                \ }
+    " 使用 python 的 match 算法
+    let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
     " 基于路径显示
     let g:ctrlp_funky_matchtype = 'path'
     " 高亮显示当前查找的函数

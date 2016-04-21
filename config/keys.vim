@@ -6,7 +6,7 @@ let mapleader=" "
 " 打开 init.vim 配置文件
 nmap <silent> <leader>fv :e $MYVIMRC<CR>
 " 从当前文件的相对位置打开文件
-nmap <leader>ff :e %:h/
+nmap <leader>ff :CtrlPCurFile<CR>
 " 保存文件
 nmap <silent> <leader>fs :w<CR>
 " buffer next
@@ -19,7 +19,7 @@ nmap <leader>bd :bd
 nmap <leader>qq :q<CR>
 
 " 打开SourceTree
-nnoremap <leader>ogs :call OpenSourceTree()<CR>
+nnoremap <leader>ogs :call funcs#OpenSourceTree()<CR>
 
 " 横向分割窗口
 nnoremap <leader>ss :split<CR>

@@ -11,7 +11,7 @@ silent function! WINDOWS()
 endfunction
 
 " 打开 SourceTree
-function! OpenSourceTree()
+function! funcs#OpenSourceTree()
     " 当前文件所在文件夹的绝对路径
     let l:file_wd = expand('%:p:h')
     " 当前文件夹路径
