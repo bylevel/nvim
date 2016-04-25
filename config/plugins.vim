@@ -21,6 +21,7 @@
 " ctrlp {
     " 打开ctrl的buffer列表
     nmap <silent> <Leader>bb :CtrlPBuffer<cr>
+    nmap <silent> <Leader>pf :CtrlP<cr>
     " 多个版本控制系统
     let g:ctrlp_user_command = {
                 \ 'types': {
