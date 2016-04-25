@@ -14,6 +14,8 @@ call plug#begin('~/.config/nvim/plugged')
     " Plug 'pangloss/vim-javascript'
     " 高亮git修改
     Plug 'airblade/vim-gitgutter'
+    " 操作git
+    Plug 'tpope/vim-fugitive'
     " 相对行号
     Plug 'myusuf3/numbers.vim'
     " 快速定位屏幕上的指定位置
