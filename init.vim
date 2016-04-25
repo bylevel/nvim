@@ -72,6 +72,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'Shougo/neoyank.vim'
     " 显示缩进高亮
     Plug 'Yggdroot/indentLine'
+    " 搜索时限时显示全部高亮
+    Plug 'haya14busa/incsearch.vim'
+    " 高亮显示匹配的 html tag标签
+    Plug 'valloric/matchtagalways'
+    " sudo 方式打开 :e sudo:/etc/passwd
+    Plug 'sudo.vim'
 call plug#end()
 
 " 加载函数
