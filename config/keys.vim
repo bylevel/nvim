@@ -22,8 +22,8 @@ nmap <leader>qq :q<CR>
 nnoremap <leader>ogs :call funcs#OpenSourceTree()<CR>
 
 " 横向分割窗口
-nnoremap <leader>ss :split<CR>
+nnoremap <leader>w- :split<CR>
 " 纵向分割窗口
-nnoremap <leader>sv :vsplit<CR>
+nnoremap <leader>w/ :vsplit<CR>
 " 关闭当前窗口
-nnoremap <leader>sc :hide<CR>
+nnoremap <leader>wc :hide<CR>
