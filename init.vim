@@ -25,7 +25,9 @@ call plug#begin('~/.config/nvim/plugged')
     " 注释插件
     Plug 'tomtom/tcomment_vim'
     " 神器YouCompleteMe
-    Plug 'Valloric/YouCompleteMe'
+    " Plug 'Valloric/YouCompleteMe'
+    " 异步的补全插件
+    Plug 'Shougo/deoplete.nvim'
     " wakatime 记录写代码的时间
     Plug 'wakatime/vim-wakatime'
     " ultisnip 插件

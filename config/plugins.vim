@@ -178,3 +178,6 @@
     map g* <Plug>(incsearch-nohl-g*)
     map g# <Plug>(incsearch-nohl-g#)
 " }
+
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
