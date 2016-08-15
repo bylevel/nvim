@@ -26,8 +26,11 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'tomtom/tcomment_vim'
     " 神器YouCompleteMe
     " Plug 'Valloric/YouCompleteMe'
+    function! DoRemote(arg)
+        UpdateRemotePlugins
+    endfunction
     " 异步的补全插件
-    Plug 'Shougo/deoplete.nvim'
+    Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
     " wakatime 记录写代码的时间
     Plug 'wakatime/vim-wakatime'
     " ultisnip 插件
@@ -90,4 +93,3 @@ source ~/.config/nvim/config/global.vim
 source ~/.config/nvim/config/keys.vim
 " 加载插件配置
 source ~/.config/nvim/config/plugins.vim
-
