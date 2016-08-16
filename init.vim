@@ -83,6 +83,8 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'valloric/matchtagalways'
     " sudo 方式打开 :e sudo:/etc/passwd
     Plug 'sudo.vim'
+    " 自动检测文件编码
+    Plug 'mbbill/fencview'
 call plug#end()
 
 " 加载函数
