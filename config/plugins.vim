@@ -179,5 +179,15 @@
     map g# <Plug>(incsearch-nohl-g#)
 " }
 
-" Use deoplete.
-let g:deoplete#enable_at_startup = 1
+" deoplete {
+    " neocomplete like
+    set completeopt+=noinsert
+    " deoplete.nvim recommend
+    set completeopt+=noselect
+
+    " 开启nvim时自动启用deoplete.
+    let g:deoplete#enable_at_startup = 1
+
+    " deoplete-go settings
+    let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+" }

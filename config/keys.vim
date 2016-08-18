@@ -4,7 +4,7 @@
 let mapleader=" "
 
 " 打开 init.vim 配置文件
-nmap <silent> <leader>fv :e $MYVIMRC<CR>
+nmap <silent> <leader>fed :e $MYVIMRC<CR>
 " 从当前文件的相对位置打开文件
 nmap <leader>ff :CtrlPCurFile<CR>
 " 保存文件
@@ -14,7 +14,7 @@ nmap <silent> <leader>bn :bn<CR>
 " buffer previous
 nmap <silent> <leader>bp :bp<CR>
 " buffer delete
-nmap <leader>bd :bd
+nmap <leader>bd :bd<CR>
 " 关闭当前窗口
 nmap <leader>qq :q<CR>
 

@@ -31,6 +31,10 @@ call plug#begin('~/.config/nvim/plugged')
     endfunction
     " 异步的补全插件
     Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+    " deoplete的go语言补全插件
+    Plug 'zchee/deoplete-go', { 'do': 'make'}
+    " deoplete的vim语言补全
+    Plug 'Shougo/neco-vim'
     " wakatime 记录写代码的时间
     Plug 'wakatime/vim-wakatime'
     " ultisnip 插件
